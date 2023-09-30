@@ -1,0 +1,262 @@
+/* Main Selectors */
+
+html {
+  scroll-behavior: smooth;
+  background-color: #cdcdcd;
+}
+
+body {
+  width: 100% !important;
+  height: 100% !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #cdcdcd;
+}
+
+
+/* Navigation */
+
+#menu a.navbar-brand {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 33px;
+  color: #cc4125;
+  font-weight: 700;
+}
+
+#main-menu-list a {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: #666;
+}
+
+#main-menu-list .nav-item > .nav-btn.active {
+  color: #cc4125;
+  background: none;
+  border: none;
+}
+
+
+/* Header */
+
+header {
+  background-color: #dedede;
+  background: url(../img/intro.jpeg) no-repeat;
+  background-position-y: top;
+  background-position-x: 5%;
+}
+
+header .intro {
+  padding-top: 220px;
+  padding-bottom: 170px;
+}
+
+header .intro-content {
+  padding-left: 60px;
+}
+
+header h1 {
+  color: #b63a21;
+  font-size: 60px;
+}
+
+header .lead {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 32px;
+}
+
+header .btn {
+  border-radius: 0;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+
+header .btn-primary {
+  background-color: #cc4125;
+  border-color: #cc4125;
+}
+
+header .btn-primary:hover {
+  background-color: #b63a21;
+  border-color: #b63a21;
+}
+
+header .btn-secondary {
+  background-color: #666;
+  border-color: #666;
+}
+
+header .btn-secondary:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+
+/* Common Section Directives */
+
+.section-title {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.section-title h1 {
+  padding-bottom: 20px;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 700;
+}
+
+.section-title hr {
+  height: 3px;
+  width: 80px;
+  text-align: center;
+  position: relative;
+  background: #999;
+  margin: 0 auto;
+  border: 0;
+}
+
+.section-content {
+  margin-top: 110px;
+  padding-bottom: 130px;
+}
+
+
+/* Section How it Works */
+
+#section-how-it-works {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ededed+0,dcdcdc+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ededed 0%,#dcdcdc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#section-how-it-works .section-title {
+  padding-top: 80px;
+}
+
+#section-how-it-works .section-content {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  padding-bottom: 80px;
+}
+
+#section-how-it-works .col-item {
+  padding-bottom: 80px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+#section-how-it-works .icon {
+  margin-bottom: 18px;
+  color: #cc4125;
+  font-size: 78px;
+}
+
+
+/* Section Benefits */
+
+#section-benefits {
+  padding-left: 30px;
+  padding-right: 30px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ffffff+0,efefef+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ffffff 0%,#efefef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#section-benefits .section-content{
+  margin-top: 60px;
+}
+
+#section-benefits .card{
+  margin-bottom: 18px;
+}
+
+#section-benefits .icon{
+  color: #fff;
+  background-color: #666;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#section-benefits .benefits-item {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* Section About Us */
+
+#section-about-us {
+  background-color: #333;
+  color: #eee;
+}
+
+#section-about-us .right-col {
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+#section-about-us .left-col {
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  color: #ddd;
+  padding-left: 50px;
+}
+
+
+/* Section Contact */
+
+#section-contact {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,ededed+0,dcdcdc+100 */
+  background: linear-gradient(to bottom,  #54d0dd 0%,#54d0dd 0%,#54d0dd 0%,#ededed 0%,#cdcdcd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#section-contact .section-content {
+  margin-top: 60px;
+}
+
+#section-contact .form-control {
+  background-color: #ccc;
+  border-radius: 0;
+  border-color: #ddd;
+}
+
+#section-contact .btn-primary {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #666;
+  border-color: #666;
+  border-radius: 0;
+}
+
+#section-contact .btn-primary:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+#section-contact .form-control::-webkit-input-placeholder {
+color: #aaa;
+}
+
+#section-contact .form-control:-moz-placeholder {
+color: #aaa;
+}
+
+#section-contact .form-control::-moz-placeholder {
+color: #aaa;
+}
+
+#section-contact .form-control:-ms-input-placeholder {
+color: #aaa;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #cdcdcd;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 14px;
+}
+
