@@ -31,13 +31,7 @@ body {
 #main-menu-list .nav-btn.active {
   color: #cc4125;
   background: none;
-  border: none;
-}
-
-#main-menu-list .nav-btn:active {
-  color: #cc4125;
-  background: none;
-  border: none;
+  border: transparent;
 }
 
 
